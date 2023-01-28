@@ -12,7 +12,7 @@ public class Main {
         guestList.add("sakshi");
         guestList.add("anjali");
 
-       guestList.forEach(name -> System.out.println(name));
+        guestList.forEach(name-> System.out.println(name));
         System.out.println("second element : " + guestList.get(1));
         System.out.println("removing first element :"+ guestList.remove(2));
 
